@@ -18,3 +18,8 @@ EXPOSE 5000
 
 # Start the application
 CMD ["npm", "start"]
+
+
+# docker compose up and down and build
+RUN docker compose up --build
+RUN docker compose down
